@@ -276,7 +276,7 @@ html, body {
   }
 }
 @media (max-width: 767px) {
-  .main-footer .footer-link {
+  .main-footer .footer-link li {
     display: none;
   }
 }
