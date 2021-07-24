@@ -88,6 +88,11 @@
   background-color: #fff;
 }
 
+hr {
+  background-color: #aaa;
+  height: 1px;
+}
+
 * {
   padding: 0;
   margin: 0;
