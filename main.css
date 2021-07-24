@@ -36,15 +36,19 @@
   border-bottom: 3px solid #26d381;
 }
 
-.figma-act {
-  color: #26d381;
-}
-
 .menu-main a {
   color: #fff;
 }
 
 .menu-main a:hover {
+  color: #26d381;
+}
+
+.figma-act {
+  color: #26d381;
+}
+
+.section-about-figma ol a:hover {
   color: #26d381;
 }
 
