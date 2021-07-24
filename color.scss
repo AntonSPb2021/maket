@@ -11,8 +11,16 @@
   color: #aaa;
 }
 
+.menu-link a:hover {
+  color: #26d381;
+}
+
 .fab {
   color: #aaa;
+}
+
+.fab:hover {
+  color: #26d381;
 }
 
 .menu-bottom {
@@ -26,15 +34,17 @@
 
 .active {
   border-bottom: 3px solid #26d381;
-  color: #26d381;
 }
 
-.active-figma {
+.figma-act {
   color: #26d381;
 }
-
 .menu-main a {
   color: #fff;
+}
+
+.menu-main a:hover {
+  color: #26d381;
 }
 
 .color-grey {
@@ -61,6 +71,14 @@
   color: #fff;
 }
 
-.footer-socLink {
-  color: #aaa;
+.footer-link a:hover {
+  color: #26d381;
+}
+
+.mobile-nav span {
+  background-color: #fff;
+}
+
+.mobile-nav:after {
+  background-color: #fff;
 }

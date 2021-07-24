@@ -11,8 +11,16 @@
   color: #aaa;
 }
 
+.menu-link a:hover {
+  color: #26d381;
+}
+
 .fab {
   color: #aaa;
+}
+
+.fab:hover {
+  color: #26d381;
 }
 
 .menu-bottom {
@@ -26,15 +34,18 @@
 
 .active {
   border-bottom: 3px solid #26d381;
-  color: #26d381;
 }
 
-.active-figma {
+.figma-act {
   color: #26d381;
 }
 
 .menu-main a {
   color: #fff;
+}
+
+.menu-main a:hover {
+  color: #26d381;
 }
 
 .color-grey {
@@ -61,8 +72,16 @@
   color: #fff;
 }
 
-.footer-socLink {
-  color: #aaa;
+.footer-link a:hover {
+  color: #26d381;
+}
+
+.mobile-nav span {
+  background-color: #fff;
+}
+
+.mobile-nav:after {
+  background-color: #fff;
 }
 
 * {
@@ -250,7 +269,6 @@ html, body {
 
   .mobile-nav span {
     position: absolute;
-    background-color: #fff;
     left: 0;
     width: 100%;
     height: 2px;
@@ -260,7 +278,6 @@ html, body {
   .mobile-nav:before,
 .mobile-nav:after {
     content: "";
-    background-color: #fff;
     position: absolute;
     width: 100%;
     height: 2px;
