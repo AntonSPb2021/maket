@@ -1,0 +1,253 @@
+@import "color";
+@import "main-null";
+@import "font-size";
+@import "section-about-figma";
+@import "main-bar";
+
+
+//.scroll {
+//  position: fixed;
+//  top: 0;
+//  left: 0;
+//  width: 0;
+//  height: 4px;
+//  background-color: rgb(38, 211, 129);
+//  /*z-index: 1;*/
+//} не получается сделать !!!
+
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .menu-bottom ul {
+    display: none;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .main-bar {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    margin-top: 15px;
+  }
+  .mobile-nav span {
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+
+  .mobile-nav:before,
+  .mobile-nav:after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+  }
+  .mobile-nav:before {
+    top: 0;
+  }
+  .mobile-nav:after {
+    bottom: 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .main-footer .footer-link {
+    display: none;
+  }
+}
+
+.d-none {
+  display: block;// приходится переопредялть . мне кажется хреново
+}
+
+.menu-topLine {
+  height: 100%;
+  width: 100%;
+
+  .row {
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+  }
+
+  .justify-content-end {
+    justify-content: flex-end;
+    -webkit-box-pack: end;
+  }
+
+  .menu-link {
+    display: flex;
+    margin-bottom: 0.375em;
+  }
+
+  .page {
+    padding-left: 0;
+    padding-top: 0.625em;
+    margin-left: 1.875em;
+  }
+
+  li {
+    padding-left: 1.875em;
+    padding-right: 0.625em;
+  }
+
+  .menu-soc-link {
+    padding-top: 0.438em;
+    padding-left: 0;
+    margin-right: 1.875em;
+  }
+}
+
+.menu-bottom {
+  margin-bottom: 1.875em;
+  width: 100%;
+
+  .justify-content {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+
+  .logo {
+    padding-top: 0.563em;
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  .figma {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 0.625em;
+    margin-bottom: 0;
+    margin-top: 0.25em;
+    height: 1.875em;
+  }
+
+  .description {
+    margin-left: 0.625em;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.menu-main {
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+
+  a {
+    display: block;
+    text-align: center;
+    padding-top: 1.25em;
+    width: 125px;
+    height: 60px;
+  }
+}
+
+  .main-footer {
+    margin-top: 3.125em;
+  }
+
+.container-footer {
+  display: block;
+
+  .footer-link {
+    display: flex;
+    text-transform: uppercase;
+    padding-top: 3.125em;
+    margin-bottom: 0;
+    justify-content: center;
+
+    li {
+      margin-right: 2.5em;
+      margin-bottom: 1.563em;
+
+      a {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .footer-socLink {
+    display: flex;
+    text-transform: uppercase;
+    padding-top: 1.875em;
+    margin-bottom: 0;
+    justify-content: center;
+
+    li {
+      display: list-item;
+      margin-right: 2.5em;
+      margin-bottom: 1rem;
+    }
+  }
+
+  //hr {
+  //  box-sizing: content-box;
+  //  overflow: visible;
+  //} полосу не видно (
+}
+.justify-content-copyright {
+  -webkit-box-pack: center;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.copyright {
+  color: #aaa;
+  text-align: center;
+  margin-top: 1.25em;
+  padding-bottom: 1.875em;
+  opacity: .4;
+}
+
+
+
+
+
+

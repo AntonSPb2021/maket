@@ -1,0 +1,50 @@
+.main-bar {
+  width: 40%;
+  margin-top: 50px;
+  padding-left: 180px;
+}
+
+.article {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.last-header {
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
+.list-templates {
+  position: relative;
+  padding-left: 120px;
+  margin-bottom: 3px;
+}
+
+.list-lessons {
+  position: relative;
+  padding-left: 120px;
+  margin-bottom: 3px;
+}
+
+.list-articles {
+  position: relative;
+  padding-left: 120px;
+  margin-bottom: 3px;
+}
+
+.list-left {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
+
+.list-body {
+  padding: 10px 15px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main-bar.css.map */
